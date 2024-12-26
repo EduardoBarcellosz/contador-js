@@ -1,0 +1,25 @@
+section {
+    background-color: blueviolet;
+    width: 400px;
+    min-height: 200px; /* Altura mínima do elemento */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: auto; /* para aumentar o tamanho do elemento automaticamente */
+    
+}
+
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    height: 95vh;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+#Titulo {
+    top: 240px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Contador</title>
+</head>
+<body>
+    <div id="Titulo"><h1>Contador</h1></div>
+    <section id="tela_central">
+        <div id="entradas">
+            <p>Inicio: <input type="number" id="Inicio" placeholder="Digite um número" min="0"></p>
+            <p>Fim:<input type="number" id="Fim" placeholder="Digite um número" min="0"></p>
+            <p>Passo: <input type="number" id="Passo" placeholder="Digite um número" min="1"></p>
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <script src="scripto.js"></script>
+</body>
+</html>
